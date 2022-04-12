@@ -1,12 +1,13 @@
 <template>
   <div>
-      User
+      userview
   </div>
 </template>
 
 <script>
-export default {
 
+export default {
+  
 }
 </script>
 
