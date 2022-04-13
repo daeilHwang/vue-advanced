@@ -13,6 +13,7 @@ export default {
     FETCH_JOBS({commit}){
         fetchJobsList()
             .then(({data}) => {
+                console.log(data);
                 commit('SET_JOBS', data);
             })
             .catch(ex => {

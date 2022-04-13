@@ -1,6 +1,11 @@
 <template>
   <div>
-      <div v-for="job in this.$store.state.jobs" v-bind:key="job.id">{{ job.title }}</div>
+      <p v-for='item in this.$store.state.jobs' v-bind:key='item.id'>
+        <a v-bind:href='item.url'>
+          {{ item.title }}
+        </a>
+        <small>{{ item.time_ago }}, {{ item.domain }}</small>
+      </p>
   </div>
 </template>
 
