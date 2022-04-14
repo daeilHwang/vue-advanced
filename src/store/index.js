@@ -19,6 +19,9 @@ export const store = new Vuex.Store({
         },
         fetchedItem(state){
             return state.item;
+        },
+        fetchedJobs(state){
+            return state.jobs;
         }
     },
     mutations,

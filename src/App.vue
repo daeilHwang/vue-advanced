@@ -22,6 +22,18 @@ body {
   margin: 0;
 }
 
+a {
+  color: #34495e;
+  text-decoration: none;
+}
+a.router-link-exact-active {
+  text-decoration: underline;
+}
+a:hover {
+  color: #42b883;
+  text-decoration: underline;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease;
