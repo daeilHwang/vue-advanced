@@ -8,7 +8,9 @@
 						{{ fetchedItem.user }}
 					</router-link>
 				</div>
-				<template slot="time">{{ "posted: " + fetchedItem.time_ago }}</template>
+				<template slot="time">{{
+					"posted: " + fetchedItem.time_ago
+				}}</template>
 			</user-profile>
 		</section>
 		<section>
